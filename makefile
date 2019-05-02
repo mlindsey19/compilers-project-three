@@ -4,7 +4,7 @@
 
 CC = gcc
 CFLAGS = -g -Wall
-OBJ = main.o scanner.o parser.o testTree.o
+OBJ = main.o scanner.o parser.o testTree.o semantics.o
 
 statSem: $(OBJ)
 	$(CC)  $(CFLAGS) -o statSem $(OBJ)

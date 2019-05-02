@@ -30,7 +30,7 @@ int main (int argc, char **argv){
     file = fp;
     Node * root = createNode( infile );
     parser(root);
-    traverseTree(root);
+   // traverseTree(root);
     fclose(fp);
 
     return 0;
